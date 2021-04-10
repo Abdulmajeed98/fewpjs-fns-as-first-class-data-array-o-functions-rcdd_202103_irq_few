@@ -34,8 +34,4 @@ const unleashDog = function (dogName, dogBreed){
   return str;
 }
 
-const throwFrisbee = function (dogName, dogBreed){
-  let str = `Throw the frisbee for ${dogName} the ${dogBreed}`;
-  console.log(str);
-  return str;
-}
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog,]
