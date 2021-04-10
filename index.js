@@ -21,3 +21,10 @@ function throwFrisbee (dogName, dogBreed){
   console.log(str);
   return str;
 }
+
+function walkHome (dogName, dogBreed){
+  let str = `Walk home with ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
+}
+
