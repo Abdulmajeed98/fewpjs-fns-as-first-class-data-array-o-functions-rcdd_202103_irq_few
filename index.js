@@ -39,4 +39,3 @@ const throwFrisbee = function (dogName, dogBreed){
   console.log(str);
   return str;
 }
-
