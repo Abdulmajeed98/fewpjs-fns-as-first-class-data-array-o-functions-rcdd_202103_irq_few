@@ -39,6 +39,7 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 function exerciseDog(dogName, dogBreed){
   let arrOfFunction = [];
   for (item in routine){
+    routine[item](dogName, dogBreed);
     arrOfFunction.push(routine[item](dogName, dogBreed));
   }
   return arrOfFunction;
