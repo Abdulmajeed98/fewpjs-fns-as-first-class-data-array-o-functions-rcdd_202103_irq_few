@@ -17,7 +17,7 @@ function walkToPark (dogName, dogBreed){
 }
 
 function throwFrisbee (dogName, dogBreed){
-  let str = `Throw the frisbee to ${dogName} the ${dogBreed}`;
+  let str = `Throw the frisbee for ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
