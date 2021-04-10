@@ -1,29 +1,42 @@
-function wakeDog (dogName, dogBreed){
+const wakeDog = function (dogName, dogBreed){
   let str = `Wake ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
 
-function leashDog (dogName, dogBreed){
+const leashDog = function (dogName, dogBreed){
   let str = `Leash ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
 
-function walkToPark (dogName, dogBreed){
+const walkToPark = function (dogName, dogBreed){
   let str = `Walk to the park with ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
 
-function throwFrisbee (dogName, dogBreed){
+const throwFrisbee = function (dogName, dogBreed){
   let str = `Throw the frisbee for ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
 
-function walkHome (dogName, dogBreed){
+const walkHome = function (dogName, dogBreed){
   let str = `Walk home with ${dogName} the ${dogBreed}`;
   console.log(str);
   return str;
 }
+
+const unleashDog = function (dogName, dogBreed){
+  let str = `Unleash ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
+}
+
+const throwFrisbee = function (dogName, dogBreed){
+  let str = `Throw the frisbee for ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
+}
+
