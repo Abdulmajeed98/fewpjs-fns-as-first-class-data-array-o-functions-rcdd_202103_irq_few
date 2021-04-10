@@ -15,4 +15,3 @@ function walkToPark (dogName, dogBreed){
   console.log(str);
   return str;
 }
-
