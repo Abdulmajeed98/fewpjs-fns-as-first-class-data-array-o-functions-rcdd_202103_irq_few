@@ -27,4 +27,3 @@ function walkHome (dogName, dogBreed){
   console.log(str);
   return str;
 }
-
