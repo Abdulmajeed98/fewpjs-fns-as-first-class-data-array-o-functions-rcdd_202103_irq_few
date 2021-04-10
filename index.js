@@ -44,5 +44,4 @@ function exerciseDog(dogName, dogBreed){
   }
   return arrOfFunction;
 }
-const executedMessages = exerciseDog("Esther", "Dalmation");
-console.log(executedMessages);
+
