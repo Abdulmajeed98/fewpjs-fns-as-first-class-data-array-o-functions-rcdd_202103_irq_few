@@ -34,13 +34,13 @@ const unleashDog = function (dogName, dogBreed){
   return str;
 }
 
-wakeDog('hjdfhjd', 'sdhjksajhf');
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog,]
 
 function exerciseDog(dogName, dogBreed){
-  let executedMessages = [];
+  let arrOfFunction = [];
   for (item in routine){
-    executedMessages.push(routine[item](dogName, dogBreed));
+    arrOfFunction.push(routine[item](dogName, dogBreed));
   }
-  return executedMessages;
+  return arrOfFunction;
 }
+const executedMessages = exerciseDog("Esther", "Dalmation");
